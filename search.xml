@@ -4,13 +4,63 @@
   
     
     <entry>
+      <title>Welcome! This is my first blog.</title>
+      <link href="/2023/11/02/Welcome-This-is-my-first-blog/"/>
+      <url>/2023/11/02/Welcome-This-is-my-first-blog/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Welcome"><a href="#Welcome" class="headerlink" title="Welcome!"></a>Welcome!</h1><p>Welcome to my blog!</p><p>I will post some articles here. They might be useful, but I think most of them will be useless but funny. My native language is Chinese, so most of the articles will be written in Chinese. But I may translate some of them into English in order to improve my ability.</p><p>Thank you for spending time reading. See you again!</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Start </tag>
+            
+            <tag> English </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>欢迎来到我的博客！</title>
+      <link href="/2023/11/02/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%EF%BC%81/"/>
+      <url>/2023/11/02/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%EF%BC%81/</url>
+      
+        <content type="html"><![CDATA[<h1 id="欢迎！"><a href="#欢迎！" class="headerlink" title="欢迎！"></a>欢迎！</h1><p>我希望在这里分享一些有用或者有趣的东西。</p><p>作为一名技术小白，我希望有一个地方能够记录我的成长，并且同时能够帮助一些有需要的人。所以想到了搭建一个属于我自己的博客。在查阅了众多资料、解决了各种困难后，这个网站终于初现雏形。虽然他现在还很简陋，但是我相信随着我的进步，他一定会更加完善，最后变成一个优雅的个人博客。我很期待那一天的到来。</p><p>也欢迎大家访问、留言（后面会开放的……吧），希望能与小白共同成长，让大犇驻足相助~</p><h6 id="博客0-0测试版（因为当时没有截图所以找了一张相近的顶一下）"><a href="#博客0-0测试版（因为当时没有截图所以找了一张相近的顶一下）" class="headerlink" title="博客0.0测试版（因为当时没有截图所以找了一张相近的顶一下）"></a>博客0.0测试版（因为当时没有截图所以找了一张相近的顶一下）</h6><p><img src="https://s2.loli.net/2023/11/02/3apnkItSCyvBVQD.jpg" alt="屏幕截图 2023-11-02 172526.jpg"></p><h6 id="博客1-0发布版"><a href="#博客1-0发布版" class="headerlink" title="博客1.0发布版"></a>博客1.0发布版</h6><p><img src="https://s2.loli.net/2023/11/02/3apnkItSCyvBVQD.jpg" alt="屏幕截图 2023-11-02 172200.jpg"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Start </tag>
+            
+            <tag> History </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2023/11/01/hello-world/"/>
       <url>/2023/11/01/hello-world/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>Welcome to a website created with <a href="https://hexo.io/">Hexo</a>! This is the very first post. To memorialize it, I named him “Hello World”.</p><p>Check <a href="https://hexo.io/docs/">documentation</a> for more info. If  get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><h2 id="PS"><a href="#PS" class="headerlink" title="PS:"></a>PS:</h2><p>As you can see, this article is mostly created by Hoxe, a useful tool to build a blog. I keep this page not only   to show my gratitude, but also to help me when I forget how to use it. If you also want to set up a personal blog, you can try it! And remember, the official manual is always the best choice when you want to learn something.</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> Start </tag>
+            
+            <tag> English </tag>
+            
+        </tags>
       
     </entry>
     
