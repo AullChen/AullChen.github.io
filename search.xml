@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>hexo某些分类或标签页出现404</title>
+      <link href="/2023/12/02/hexo%E6%9F%90%E4%BA%9B%E5%88%86%E7%B1%BB%E6%88%96%E6%A0%87%E7%AD%BE%E9%A1%B5%E5%87%BA%E7%8E%B0404/"/>
+      <url>/2023/12/02/hexo%E6%9F%90%E4%BA%9B%E5%88%86%E7%B1%BB%E6%88%96%E6%A0%87%E7%AD%BE%E9%A1%B5%E5%87%BA%E7%8E%B0404/</url>
+      
+        <content type="html"><![CDATA[<p>博客文章多了，某天突然发现，有一个tag点进去404，在本地运行<code>hexo s</code>却正常没有问题。</p><p>首先是老传统<code>STFW</code>，但是网络上的相关内容却都是解决tags总页面404的，我却是单独的tag页面丢失，没找到我想要的内容。用实力证明搜索引擎不可靠（笑）。刚好那段时间比较忙，就暂且把这事搁置了。（反正博客也没什么人看）</p><p>中间有一天突发奇想，把链接里相关tag的大写改为小写，发现可以访问了。没时间去解决（懒狗不想手动修改每一个tag），于是在Tags页面下写了条评论。</p><p>今天闲下来突然想起还有这事。搜索引擎一如既往稳定发挥。怎么办呢？不急，我还有一招——<code>RTFM</code>。找到hexo在Github上的仓库，在<code>Issues</code>里面寻找。果然找到了老前辈的馈赠——<a href="https://github.com/hexojs/hexo/issues/818">BUG反馈：大写开头的标签出现404 · Issue #818 · hexojs/hexo (github.com)</a></p><p>在里面逛了一圈发现是因为git中设置了大小写不敏感。</p><h2 id="解决过程">解决过程</h2><p>在网上查找修改 git 设置不忽略大小写的方法。（顺便看到了很多因为这个引发的“事故”哈哈）</p><p>进入博客文件夹的 git 目录：<code>.deploy_git</code>，修改 <code>.git </code>文件夹中的配置文件<code> config</code>，将<code>ignorecase=true</code> 改为<code> ignorecase=false</code></p><p>清空并重新部署博客。</p><p>发现还没有解决，查找到方案：清空部署到 github 上的文件，重新发布：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd .deploy_git</span><br><span class="line">git rm -rf *</span><br><span class="line">git commit -m &#x27;clean all file&#x27;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure><p>在运行<code>git push</code>时报错，显示如下：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">git push</span><br><span class="line">fatal: The upstream branch of your current branch does not match</span><br><span class="line">the name of your current branch.  To push to the upstream branch</span><br><span class="line">on the remote, use</span><br><span class="line"></span><br><span class="line">    git push git@github.com:AullChen/AullChen.github.io.git HEAD:main</span><br><span class="line"></span><br><span class="line">To push to the branch of the same name on the remote, use</span><br><span class="line"></span><br><span class="line">    git push git@github.com:AullChen/AullChen.github.io.git HEAD</span><br><span class="line"></span><br><span class="line">To choose either option permanently, see push.default in &#x27;git help config&#x27;.</span><br><span class="line"></span><br><span class="line">To avoid automatically configuring an upstream branch when its name</span><br><span class="line">won&#x27;t match the local branch, see option &#x27;simple&#x27; of branch.autoSetupMerge</span><br><span class="line">in &#x27;git help config&#x27;.</span><br></pre></td></tr></table></figure><p>按其提示选择第二个<code>git push git@github.com:AullChen/AullChen.github.io.git HEAD</code>部署到远程仓库。</p><p>进入博客文件夹，用 hexo 重新生成部署</p><p><code>hexo clean &amp;&amp; hexo g -d</code></p><p>问题完美解决！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>二分枚举</title>
       <link href="/2023/12/02/%E4%BA%8C%E5%88%86%E6%9E%9A%E4%B8%BE/"/>
       <url>/2023/12/02/%E4%BA%8C%E5%88%86%E6%9E%9A%E4%B8%BE/</url>
