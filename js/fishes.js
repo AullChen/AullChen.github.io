@@ -363,4 +363,3 @@ FISH.prototype = {
 $(function () {
   RENDERER.init();
 });
-
